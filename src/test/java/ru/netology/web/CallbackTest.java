@@ -40,7 +40,7 @@ class CallbackTest {
 
     @Test
     void shouldTestSomething() {
-        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Ветров Геннадий");
+        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Ветрянной Геннадий");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79090091919");
         driver.findElement(By.cssSelector("[data-test-id='agreement'] ")).click();
         driver.findElement(By.cssSelector("button.button")).click();
